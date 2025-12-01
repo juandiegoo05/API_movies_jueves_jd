@@ -4,9 +4,9 @@ using API_movies_jueves_jd.DAL.Models;
 
 namespace API_movies_jueves_jd.DAL
 {
-    public class ApplicationsDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationsDbContext(DbContextOptions<ApplicationsDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
             
         }

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace API_movies_jueves_jd.Migrations
 {
-    [DbContext(typeof(ApplicationsDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20251201191808_InitialDB")]
     partial class InitialDB
     {
