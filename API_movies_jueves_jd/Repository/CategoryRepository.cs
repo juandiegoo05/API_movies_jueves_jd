@@ -38,10 +38,12 @@ namespace API_movies_jueves_jd.Repository
 
         public async Task<ICollection<Category>> GetCategoriesAsync()
         {
-            return await _Context.Categories
+            var categories = await _Context.Categories
                .AsNoTracking()
                .OrderBy(c => c.Name)
                .ToListAsync();
+
+            return categories;
         }
 
         public async Task<Category> GetCategoriesAsync(int Id) // async y await

@@ -23,7 +23,7 @@ namespace API_movies_jueves_jd.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Categories", x => x.id);
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
         }
 
