@@ -9,7 +9,7 @@ namespace API_movies_jueves_jd.DAL.Models
 
         public virtual DateTime CreateDate { get; set; }
 
-        public virtual DateTime ModifiedDate { get; set; }
+        public virtual DateTime? ModifiedDate { get; set; }
 
     }
 }
